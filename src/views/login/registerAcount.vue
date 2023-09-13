@@ -4,13 +4,17 @@
     </div>
   <div class="registerAcount">
     <el-form>
-      <el-form-item>姓名</el-form-item>
+      <el-form-item label="姓名">
+        <el-input></el-input>
+      </el-form-item>
+      <el-form-item label="身份">
+        
+      </el-form-item>
     </el-form>
   </div>
 </template>
 <script setup lang="ts">
 import {ref,reactive} from "vue"
-
 
 
 
